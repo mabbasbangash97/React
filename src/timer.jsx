@@ -25,7 +25,7 @@ function Timer(){
     return(
         <div>
             <h2>{sec} : {min} : {hour}</h2>
-            <button onClick={startTimer}>Start!</button>
+            <button onClick= {()=> startTimer}>Start!</button>
         </div>
     );
 }
